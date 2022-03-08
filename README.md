@@ -70,7 +70,7 @@
 
 ### AVL
 
-![](https://vgalaxy.gitee.io/vgalaxy/dsa/AVL-rotation-four-cases.png)
+![AVL-rotation-four-cases](https://vgalaxy.gitee.io/vgalaxy/dsa/AVL-rotation-four-cases.png)
 
 
 
@@ -98,7 +98,7 @@
 - 删除 53 → 与直接后继 64 交换位置后，再删除
 - 删除 75 → 从右侧兄弟借得一个关键码
 
-![B-Tree-Delete-2](https://vgalaxy.gitee.io/picture-bed/dsa/B-Tree-Delete-2.jpg)
+![B-Tree-Delete-2](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Delete-2.jpg)
 
 - 删除 84 → 从父节点借得一个关键码，与左侧兄弟合并
 - 删除 51 → 从父节点借得一个关键码，与左侧兄弟合并 → 从根节点借得一个关键码，与父节点的右侧兄弟合并，并删除空的根节点
