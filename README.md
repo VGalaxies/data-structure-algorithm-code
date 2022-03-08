@@ -1,6 +1,6 @@
 # 图床
 
-使用 https://gitee.com/vgalaxy/picture-bed 作为图床，注意需要通过部署来更新
+使用 https://gitee.com/vgalaxy/vgalaxy 作为图床，注意需要通过部署来更新
 
 
 
@@ -70,7 +70,7 @@
 
 ### AVL
 
-![](https://vgalaxy.gitee.io/picture-bed/dsa/AVL-rotation-four-cases.png)
+![](https://vgalaxy.gitee.io/vgalaxy/dsa/AVL-rotation-four-cases.png)
 
 
 
@@ -78,13 +78,13 @@
 
 #### 插入
 
-![B-Tree-Insert-1](https://vgalaxy.gitee.io/picture-bed/dsa/B-Tree-Insert-1.jpg)
+![B-Tree-Insert-1](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Insert-1.jpg)
 
 - 插入 23 → 直接插入
 - 插入 29 → 分裂，将 23 提升至父节点
 - 插入 45 → 分裂，将 45 提升至父节点 → 再次分裂，将 36 提升至父节点
 
-![B-Tree-Insert-2](https://vgalaxy.gitee.io/picture-bed/dsa/B-Tree-Insert-2.jpg)
+![B-Tree-Insert-2](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Insert-2.jpg)
 
 - 插入 87 → 三次分裂
 
@@ -92,7 +92,7 @@
 
 #### 删除
 
-![B-Tree-Delete-1](https://vgalaxy.gitee.io/picture-bed/dsa/B-Tree-Delete-1.jpg)
+![B-Tree-Delete-1](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Delete-1.jpg)
 
 - 删除 41 → 直接删除
 - 删除 53 → 与直接后继 64 交换位置后，再删除
