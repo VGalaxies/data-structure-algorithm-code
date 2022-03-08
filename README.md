@@ -1,9 +1,3 @@
-# 图床
-
-使用 https://gitee.com/vgalaxy/vgalaxy 作为图床，注意需要通过部署来更新
-
-
-
 # 数据结构与算法 提纲
 
 
@@ -70,7 +64,7 @@
 
 ### AVL
 
-![AVL-rotation-four-cases](https://vgalaxy.gitee.io/vgalaxy/dsa/AVL-rotation-four-cases.png)
+![AVL-rotation-four-cases](pic/AVL-rotation-four-cases.png)
 
 
 
@@ -78,13 +72,13 @@
 
 #### 插入
 
-![B-Tree-Insert-1](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Insert-1.jpg)
+![B-Tree-Insert-1](pic/B-Tree-Insert-1.jpg)
 
 - 插入 23 → 直接插入
 - 插入 29 → 分裂，将 23 提升至父节点
 - 插入 45 → 分裂，将 45 提升至父节点 → 再次分裂，将 36 提升至父节点
 
-![B-Tree-Insert-2](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Insert-2.jpg)
+![B-Tree-Insert-2](pic/B-Tree-Insert-2.jpg)
 
 - 插入 87 → 三次分裂
 
@@ -92,13 +86,13 @@
 
 #### 删除
 
-![B-Tree-Delete-1](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Delete-1.jpg)
+![B-Tree-Delete-1](pic/B-Tree-Delete-1.jpg)
 
 - 删除 41 → 直接删除
 - 删除 53 → 与直接后继 64 交换位置后，再删除
 - 删除 75 → 从右侧兄弟借得一个关键码
 
-![B-Tree-Delete-2](https://vgalaxy.gitee.io/vgalaxy/dsa/B-Tree-Delete-2.jpg)
+![B-Tree-Delete-2](pic/B-Tree-Delete-2.jpg)
 
 - 删除 84 → 从父节点借得一个关键码，与左侧兄弟合并
 - 删除 51 → 从父节点借得一个关键码，与左侧兄弟合并 → 从根节点借得一个关键码，与父节点的右侧兄弟合并，并删除空的根节点
